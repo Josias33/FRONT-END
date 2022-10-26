@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
-import { ExperienciaLaboralComponent } from './componentes/experiencia-laboral/experiencia-laboral.component';
+
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { CircleProgressComponent } from './componentes/circle-progress/circle-progress.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 
 
 
@@ -34,12 +35,13 @@ import { interceptorProvider } from './service/interceptor-service';
     AcercaDeComponent,
     
     EducacionComponent,
-    ExperienciaLaboralComponent,
+    
     CircleProgressComponent,
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
     LoginComponent,
+    ExperienciaComponent,
           
   ],
   imports: [
