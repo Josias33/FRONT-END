@@ -9,9 +9,9 @@
             <a href=""><img src="../../../assets/instagram.png"  id="instagram"></a>
             <a href=""><img src="../../../assets/github.png"  id="github"></a>
             <a href=""><img src="../../../assets/facebook.png"  id="facebook"></a>
-            <button type="button" class="btn btn-outline-light" (click)="login()"*ngIf="!isLogged" id="boton"> INGRESO</button>
-
-            <button type="button" class="btn btn-outline-light" (click)="onLogOut()"*ngIf="isLogged" id="boton"> CERRAR SESION</button>
+            <button type="button" class="btn btn-outline-light" ngClass="bi bi-box-arrow-in-right" (click)="login()"*ngIf="!isLogged" id="boton"> Usuario</button>
+            
+            <button type="button" class="btn btn-outline-light" ngClass="bi bi-box-arrow-left" (click)="onLogOut()"*ngIf="isLogged" id="boton"> Cerrar sesión</button>
         </div>
 
    </div>

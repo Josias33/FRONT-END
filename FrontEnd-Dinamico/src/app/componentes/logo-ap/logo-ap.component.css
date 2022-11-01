@@ -1,45 +1,53 @@
-.container{ 
+.container {
     display: flex;
-    justify-content: space-between; /*pone en una punta el Div de logo y en otra punta el Div de Redes*/
-    align-items: center; /*pone todo en una misma linia*/  
+    justify-content: space-between;
+    /*pone en una punta el Div de logo y en otra punta el Div de Redes*/
+    align-items: center;
+    /*pone todo en una misma linia*/
 }
 
-.redes{ /*Contenedor para las REDES*/
+.redes {
+    /*Contenedor para las REDES*/
     margin-right: 20px;
 }
 
-img { /*Conjunto de redes*/
+img {
+    /*Conjunto de redes*/
     width: 40px;
     margin: 0.1em;
 }
 
-#logoAP{
+#logoAP {
     width: 120PX;
     height: 55px;
 }
- 
 
-#boton{
+
+#boton {
     position: relative;
     left: 5%;
 }
 
+
+       
+
+
 /*PARA LA VISTA DE CELULAR*/
 
 @media (max-width: 575px) {
-    .container{
-    flex-direction: column;   /*pone una columna debajo de la otra*/
+    .container {
+        flex-direction: column;
+        /*pone una columna debajo de la otra*/
     }
 
-    .redes{
-        display:flex;
+    .redes {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .redes img{
+    .redes img {
         margin: 0.3em;
     }
-    
-}
 
+}

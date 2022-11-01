@@ -1,8 +1,5 @@
 .row {
-    /*Espacio de la esquina */
     padding: 20px;
-
-
 }
 
 div {
@@ -12,32 +9,25 @@ div {
     background-size: cover;
 }
 
-/******************************************************/
 h3 {
     display: inline;
-    /*pone dos elementos uno a lado del otro. En una misma linia*/
 }
 
 #B {
-    /*COLUMNA DE EXPERIENCIA LABORAL*/
     margin-left: 0%;
     padding: 0%;
 }
 
 #A {
-    /*COLUMNA DE LOS TRABAJOS*/
-    background-color: #eef5f9;
     border-radius: 32px;
     width: 100%;
     margin-top: 2%;
-    color: #212529
+    color: #fcfcfc
 }
 
 #expe {
-    /*TITULO experiencia laboral*/
     font-size: 44px;
     padding: 12px;
-
     font-family: sans-serif;
     color: #880888;
     background-color: #eef5f9;

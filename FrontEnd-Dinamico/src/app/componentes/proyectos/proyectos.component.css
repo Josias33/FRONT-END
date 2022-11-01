@@ -1,5 +1,5 @@
 .row{
-    padding: 20px;
+    padding: 25px;
 }
 
 div {
@@ -13,7 +13,7 @@ div {
     width: auto;
 }
 
-.parte1, .parte2{ /*Pone dos elementos uno alado del otro cuando se trata de imagen o columna*/
+.parte1, .parte2{ 
     display: inline-block;
     
 }
@@ -21,8 +21,7 @@ div {
 #titulo{
 font-size: 44px;
     padding: 12px;
-
-    font-family: sans-serif;
+font-family: sans-serif;
     color: #880888;
     background-color: #eef5f9;
     box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.1);

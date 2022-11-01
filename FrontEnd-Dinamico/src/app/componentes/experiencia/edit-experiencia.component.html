@@ -1,20 +1,32 @@
-<div class="container"> 
-    <div class="row">
-        <div>
-            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
-                <div class="form-group">
-                    <label for="nombreE">Nombre de la Empresa</label>
-                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required>
+<section class="">
+<div class="row">
+    <div class="container">
+        
+            
+            <div id=""> <div class=" col-md-12 col-lg-12 ">
+                    <form (ngSubmit)="onUpdate()" novalidate #f="ngForm" id="F">
+                         <div class="form-group" id="A" >
+                            <label for="nombreE" >Nombre de la Empresa</label>
+                            <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required>
+                         </div>
+                           <div id="F"class="form-group" >
+                           <label for="descripcionE">Descripción de las actividades</label>
+                            <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE"
+                            required>
+                           </div>
+                    
+                           <button class="btn btn-primary">
+                            Actualizar
+                    </button>
+                </form>
                 </div>
-                <div class="form-group">
-                    <label for="descripcionE">Descripcion de la tarea</label>
-                    <input type="text" class="form-control" id="descripcionE" name="descripcionE"
-                        [(ngModel)]="expLab.descripcionE" required>
                 </div>
-                <button class="btn btn-primary">
-                    Actualizar
-                </button>
-            </form>
-        </div>
-    </div>
-</div>
+                </div>
+                </div>
+            
+             
+    </section>
+
+
+
+

@@ -1,0 +1,44 @@
+* {
+    padding: 1px;
+    margin: 0px;
+}
+
+.fondo {
+    background-color: #330033;
+    position: relative;
+    padding: 145px;
+
+}
+
+.row {
+
+    padding: 15px;
+    background-color: #330033;
+    border-radius: 3px;
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+
+}
+
+#go {
+    position: relative;
+    bottom: 200px;
+}
+
+.btn-primary {
+    position: relative;
+    top: 10px;
+    height: 50PX;
+    width: 100%;
+}
+
+
+#F {
+    font-family: sans-serif;
+    color: #eef5f9
+}
+
+#A {
+    background-color: black;
+}
